@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Assignment1 : MonoBehaviour
 {
+    public int x = 22;
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        while (x <= 100)
+        {
+            print(x);
+            x = x + 2;
+        }
     }
 }
